@@ -5,10 +5,7 @@
    php --version
    ```
 
-2. **Download PHPUnit 10** as a single file from https://phpunit.de/ and save
-   `phpunit.phar` into this folder (next to `phpunit.xml`).
-
-3. **Run the suite** 
+2. **Run the command** 
    ```
    php phpunit.phar
    ```
