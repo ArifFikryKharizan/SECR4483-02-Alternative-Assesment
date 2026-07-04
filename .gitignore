@@ -1,0 +1,13 @@
+# Must never enter version control
+.env
+
+# Dependencies
+/vendor/
+
+# PHPUnit
+.phpunit.result.cache
+/coverage/
+
+# OS / editor noise
+.DS_Store
+*.swp
