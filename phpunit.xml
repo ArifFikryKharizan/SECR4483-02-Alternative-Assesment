@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PHPUnit configuration — runs with only PHP + phpunit.phar.
+  No Composer, no vendor/ directory, no database required.
+  Run from this folder with:   php phpunit.phar
+-->
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         bootstrap="tests/bootstrap.php"
+         colors="true"
+         failOnWarning="true"
+         cacheDirectory=".phpunit.cache">
+    <testsuites>
+        <testsuite name="HealthVault Security Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
